@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Loader from './Loader'
+import Loader from './components/Loader'
 import Edit from './components/Edit'
 import Education from './components/Education/Education'
 import Experience from './components/Experience/Experience'
