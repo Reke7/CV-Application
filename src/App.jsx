@@ -5,7 +5,7 @@ import Education from './components/Education/Education'
 import Experience from './components/Experience/Experience'
 import Info from './components/Resume/Info'
 import uuid from 'uuid';
-import Loader from './components/Loader'
+import Loader from './components/Loader/Loader'
 
 
 function App() {
