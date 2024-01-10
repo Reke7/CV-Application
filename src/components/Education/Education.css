@@ -28,3 +28,16 @@ p.school
     font-weight: bold;
     font-size: 1.15rem;
 }
+
+@media (max-width: 800px)
+{
+    .eduInfo.col
+    {
+        padding: 0 2em;
+    }
+
+    .eduInfo .row
+    {
+        gap: 1.5em;
+    }
+}

@@ -33,4 +33,15 @@
     .experienceInfo p{
         font-size: 0.8rem;
     }
+
+ 
+    .expInfo.col
+    {
+        padding: 0 2em;
+    }
+
+    .expInfo .row
+    {
+        gap: 1.5em;
+    }
 }
