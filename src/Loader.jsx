@@ -1,4 +1,4 @@
-import './loader.css'
+import '/cv-application/src/loader.css'
 
 function Loader({ setInfo, setEduInfo, setExperienceInfo}) {
 
