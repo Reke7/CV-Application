@@ -4,7 +4,7 @@ import Edit from './components/Edit'
 import Education from './components/Education/Education'
 import Experience from './components/Experience/Experience'
 import Info from './components/Resume/Info'
-import uuid from 'uuid';
+import {v4 as uuidv4} from 'uuid';
 import Loader from './components/Loader/Loader'
 
 
@@ -22,7 +22,7 @@ function App() {
   // Education Component
   const [eduInfo, setEduInfo] = useState([
       {
-      id: uuid(),
+      id: uuidv4(),
       school: 'London City University',
       degree: 'Bachelors in Economics',
       startDate: '08/2020',
