@@ -1,5 +1,5 @@
 import './Edit.css';
-import { v4 as uuidv4} from 'uuid'
+import uuid from 'uuid'
 
 function Edit({
     info, setInfo,
@@ -71,7 +71,7 @@ function Edit({
         e.preventDefault();
     
         const newEduInfo = {
-          id: uuidv4(),
+          id: uuid(),
           school,
           degree,
           startDate,
@@ -94,7 +94,7 @@ function Edit({
         e.preventDefault();
 
         const newExperienceInfo = {
-            id: uuidv4(),
+            id: uuid(),
             companyName,
             positionTitle,
             expStartDate,
