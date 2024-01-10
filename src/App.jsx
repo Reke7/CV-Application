@@ -4,7 +4,7 @@ import Edit from './components/Edit'
 import Education from './components/Education/Education'
 import Experience from './components/Experience/Experience'
 import Info from './components/Resume/Info'
-import {v4 as uuidv4} from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 import Loader from './components/Loader/Loader'
 
 
