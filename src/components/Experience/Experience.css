@@ -44,4 +44,9 @@
     {
         gap: 1.5em;
     }
+
+    .experience
+    {
+        max-width: 250px;
+    }
 }

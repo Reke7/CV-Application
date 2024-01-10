@@ -40,4 +40,9 @@ p.school
     {
         gap: 1.5em;
     }
+    
+    .educat
+    {
+        max-width: 250px;
+    }
 }
