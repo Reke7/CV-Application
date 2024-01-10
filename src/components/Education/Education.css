@@ -1,0 +1,30 @@
+.margin-top + .margin-top
+{
+    margin-top: 1em;
+}
+
+.educat
+{
+    font-size: 1.6rem;
+    text-align: center;
+    color: rgb(38, 58, 120);
+    background-color: rgb(229, 230, 232);
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 1.6em;
+    border-radius: 6px;
+    margin-bottom: 1em;
+}
+
+.eduInfo
+{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+p.school
+{
+    font-weight: bold;
+    font-size: 1.15rem;
+}

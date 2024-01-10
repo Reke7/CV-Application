@@ -1,0 +1,30 @@
+.buttons
+{
+    background-color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.clearResume
+{
+    border: none;
+    color: red;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.loadExample
+{
+    cursor: pointer;
+    border: none;
+    color: #101010;
+    background-color: #dad7d7;
+    padding: 0.6em 0.6em;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+}

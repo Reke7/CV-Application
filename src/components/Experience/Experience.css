@@ -1,0 +1,36 @@
+.experience
+{
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgb(38, 58, 120);
+    background-color: rgb(229, 230, 232);
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 1.8em;
+    border-radius: 6px;
+    margin-bottom: 1em;
+    padding: 0.2em 0;
+}
+
+.expInfo
+{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.company{
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+.experienceInfo p{
+    font-size: 1rem;
+}
+
+@media (max-width: 400px)
+{
+    .experienceInfo p{
+        font-size: 0.8rem;
+    }
+}

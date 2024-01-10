@@ -1,0 +1,43 @@
+import './Education.css'
+
+function Education({eduInfo}) {
+
+  const eduInfoDurationLocationList = eduInfo.map(edu =>
+    <div key={edu.id}>
+      <p className="duration"> {edu.startDate} - {edu.endDate}
+      </p>
+      <p className="location">
+      {edu.location}
+      </p>
+    </div>
+  );
+
+  const eduInfoSchoolDegreeList = eduInfo.map(edu =>
+    <div key={edu.id}>
+      <p className="school"> {edu.school}
+      </p>
+      <p className="degree">
+      {edu.degree}
+      </p>
+    </div>
+  );
+
+  return (
+    <div className='education'>
+      <h3 className='educat'>Education</h3>
+      <div className="eduInfo row">
+        <div className="durationLocation margin-top" style={{width:'50%'}}>
+
+          {eduInfoDurationLocationList}
+
+        </div>
+
+        <div className="schoolDegree margin-top" style={{width:'50%'}}>
+          {eduInfoSchoolDegreeList}
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Education
