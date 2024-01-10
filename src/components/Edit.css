@@ -33,6 +33,7 @@ label h3
 input
 {
     width: 250px;
+    max-width: 100%;
     padding: 0.8em 0.4em;
     border-radius: 6px;
     border: none;
@@ -50,6 +51,7 @@ textarea:focus
 textarea
 {
     width: 250px;
+    max-width: 100%;
     padding: 0.8em 0.4em;
     border-radius: 6px;
     border: none;
