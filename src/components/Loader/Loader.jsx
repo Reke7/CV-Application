@@ -1,4 +1,4 @@
-import '/src/loader.css'
+import './Loader.css'
 
 function Loader({ setInfo, setEduInfo, setExperienceInfo}) {
 
