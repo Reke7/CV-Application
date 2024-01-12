@@ -94,7 +94,7 @@ function Edit({
         e.preventDefault();
 
         const newExperienceInfo = {
-            id: uuid(),
+            id: uuidv4(),
             companyName,
             positionTitle,
             expStartDate,
